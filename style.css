@@ -70,7 +70,10 @@ body {
   z-index: 1;
   transition: 0.5s;
   backdrop-filter: blur(15px);
- width:100%;
+
+}
+.matrix table{
+	 width:100%;
 }
 table,
 td,

@@ -72,9 +72,7 @@ body {
   backdrop-filter: blur(15px);
 
 }
-.matrix table{
-	 width:100%;
-}
+
 table,
 td,
 tr {

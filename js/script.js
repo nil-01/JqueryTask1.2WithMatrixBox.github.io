@@ -358,7 +358,7 @@ $("#matrix").on("click" ,function (){
         alert("Enter a Valid Input")
         rowNo=""
     }
-    }while(isNaN(rowNo) || rowNo =='');
+    }while(isNaN(rowNo) || rowNo =='' || rowNo<0 );
    
     do{ 
         var colNo = parseInt(prompt("How many columns would you like?"));
@@ -367,7 +367,7 @@ $("#matrix").on("click" ,function (){
             colNo=""
         }
      
-        }while(isNaN(colNo) || colNo =='');
+        }while(isNaN(colNo) || colNo =='' || colNo<0);
     
     var matrixTable = "";
     var cellNum=0, row=rowNo, col=colNo;

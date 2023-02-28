@@ -354,7 +354,7 @@ $("#matrix").on("click" ,function (){
   
     do{ 
      var rowNo = parseInt(prompt("How many rows would you like?"));
-    if(isNaN(rowNo) ||  rowNo<0){
+    if((isNaN(rowNo) ||  rowNo<0)){
         alert("Enter a Valid Input")
         rowNo=""
     }
@@ -362,7 +362,7 @@ $("#matrix").on("click" ,function (){
    
     do{ 
         var colNo = parseInt(prompt("How many columns would you like?"));
-        if(isNaN(colNo) || colNo<0 ){
+        if((isNaN(colNo) || colNo<0 )){
             alert("Enter a Valid Input")
             colNo=""
         }

@@ -68,11 +68,9 @@ body {
   border-collapse: collapse;
   color: rgb(17, 190, 190);
   z-index: 1;
-  transition: 0.5s;
-  backdrop-filter: blur(15px);
-
+	transition: 0.5s;
+	backdrop-filter: blur(15px);
 }
-
 table,
 td,
 tr {
